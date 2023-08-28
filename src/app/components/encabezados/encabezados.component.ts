@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-encabezados',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EncabezadosComponent  implements OnInit {
 
+  @Input() titulo= '';
   constructor() { }
 
   ngOnInit() {}

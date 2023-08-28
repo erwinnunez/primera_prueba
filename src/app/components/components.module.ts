@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EncabezadosComponent } from './encabezados/encabezados.component';
+import { IonicModule } from '@ionic/angular';
 
 
 
@@ -8,7 +9,8 @@ import { EncabezadosComponent } from './encabezados/encabezados.component';
   declarations: [EncabezadosComponent],
   exports: [EncabezadosComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ]
 })
 export class ComponentsModule { }
